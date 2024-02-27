@@ -1,0 +1,103 @@
+@media screen and (max-width:700px) {
+    body{
+        width: 100vw;
+    }
+    .container{
+        width: 100vw;
+    }
+    .navbar{
+        
+    }
+    .navbar img{
+        width: 90px;
+    }
+    .navbar .primary-style {
+        padding: 3px 10px;
+        margin: 2px;
+        font-size: 1rem;
+    }
+    .nav-btn select{
+        padding: 3px 6px;
+        margin: 2px;
+        font-size: 1rem;
+    }
+
+    .banner{
+        gap: 10px;
+        height: 40vh;
+    }
+    .main-header::before{
+        height: 60vh;
+        background: linear-gradient( rgb(0,0,0,0.9),rgb(0,0,0,0.4),rgb(0,0,0,0.9)),url(./images/header-image.png);
+    }
+
+   .First{
+    font-size: 1.7rem;
+    text-align: center;
+}
+   .second{
+    text-align: center;
+    font-size: .9rem;
+}
+   .third{
+    font-size: 1rem;
+    text-align: center;
+   }
+   .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .entry input{
+    background: black;
+    outline: #fff;
+   }
+   .entry a{
+        margin-top: 10px;
+        width: 40%;
+        font-size: 1.3rem;
+        padding: 10px 15px;
+   }
+   
+   .feature-1 , .feature-2 , .feature-3 , .feature-4{
+    width: 50vh;
+    flex-direction: column;
+    
+   }
+   .feature-img img{
+    width: 450px;
+   }
+
+   .outside-container{
+    margin-block: 50px;
+    width: 100vw;
+   }
+   .Qboxes{
+    width: 100vw;
+   }
+   .side-btn{
+    font-size: 2rem;
+    top: 10px;
+   }
+   .faq-input{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   }
+   .faq-input input{
+    width: 80%;
+   }
+   .faq-input a {
+    width: 47%;
+   }
+   .footer-1 {
+    width: 100vw;
+   }
+   .footer-1 ul{
+    grid-template-columns: repeat(2,auto);
+   }
+}
